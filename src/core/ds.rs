@@ -1,27 +1,27 @@
-pub(super) struct DS0 {
-    pub(super) v0: u8,
+pub(in crate::core) struct DS0 {
+    pub(in crate::core) v0: u8,
 }
 
 impl DS0 {
-    pub(super) fn new() -> Self {
+    pub(in crate::core) fn new() -> Self {
         Self { 
             v0: 0x21 
         }
     }
 }
 
-pub(super) struct DS1 {
-    pub(super) v0: u8,
-    pub(super) v1: u8,
-    pub(super) v2: u8,
-    pub(super) v3: u8,
-    pub(super) v4: u8,
-    pub(super) v5: u8,
-    pub(super) v6: u8,
+pub(in crate::core) struct DS1 {
+    pub(in crate::core) v0: u8,
+    pub(in crate::core) v1: u8,
+    pub(in crate::core) v2: u8,
+    pub(in crate::core) v3: u8,
+    pub(in crate::core) v4: u8,
+    pub(in crate::core) v5: u8,
+    pub(in crate::core) v6: u8,
 }
 
 impl DS1 {
-    pub(super) fn new() -> Self {
+    pub(in crate::core) fn new() -> Self {
         Self { 
             v0: 0x00,
             v1: 0x16,
@@ -34,14 +34,14 @@ impl DS1 {
     }
 }
 
-pub(super) struct DS2 {
-    pub(super) v0: u8,
-    pub(super) v1: u8,
-    pub(super) v2: u8,
+pub(in crate::core) struct DS2 {
+    pub(in crate::core) v0: u8,
+    pub(in crate::core) v1: u8,
+    pub(in crate::core) v2: u8,
 }
 
 impl DS2 {
-    pub(super) fn new() -> Self {
+    pub(in crate::core) fn new() -> Self {
         Self { 
             v0: 0x00,
             v1: 0x11,
@@ -50,17 +50,17 @@ impl DS2 {
     }
 }
 
-pub(super) struct DS3 {
-    pub(super) v0: u8,
-    pub(super) v1: u8,
-    pub(super) v2: u8,
-    pub(super) v3: u8,
-    pub(super) v4: u8,
-    pub(super) v5: u8,
+pub(in crate::core) struct DS3 {
+    pub(in crate::core) v0: u8,
+    pub(in crate::core) v1: u8,
+    pub(in crate::core) v2: u8,
+    pub(in crate::core) v3: u8,
+    pub(in crate::core) v4: u8,
+    pub(in crate::core) v5: u8,
 }
 
 impl DS3 {
-    pub(super) fn new() -> Self {
+    pub(in crate::core) fn new() -> Self {
         Self { 
             v0: 0x02,
             v1: 0x0E,
@@ -72,19 +72,19 @@ impl DS3 {
     }
 }
 
-pub(super) struct DS4 {
-    pub(super) v0: u8,
-    pub(super) v1: u8,
-    pub(super) v2: u8,
-    pub(super) v3: u8,
-    pub(super) v4: u8,
-    pub(super) v5: u8,
-    pub(super) v6: u8,
-    pub(super) v7: u8,
+pub(in crate::core) struct DS4 {
+    pub(in crate::core) v0: u8,
+    pub(in crate::core) v1: u8,
+    pub(in crate::core) v2: u8,
+    pub(in crate::core) v3: u8,
+    pub(in crate::core) v4: u8,
+    pub(in crate::core) v5: u8,
+    pub(in crate::core) v6: u8,
+    pub(in crate::core) v7: u8,
 }
 
 impl DS4 {
-    pub(super) fn new() -> Self {
+    pub(in crate::core) fn new() -> Self {
         Self { 
             v0: 0x02,
             v1: 0x00,

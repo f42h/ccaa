@@ -34,7 +34,5 @@ impl<'a> Tl<'a> {
         if self.input.len() != 1 {
               print!(" ");
         }
-
-        println!();
     }
 }
